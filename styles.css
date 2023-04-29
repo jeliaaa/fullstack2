@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: aquamarine;
+}
+.carousel{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}    
+.slick-slide{
+    margin: 0 10px;
+}
+.slick-list.draggable{
+    width: 95%;
+}
+.slick-list.draggable:hover{
+    cursor: pointer;
+}
+li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.slick-dots{
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    margin-top: 20px;  
+}
+.slick-next.slick-arrow, .slick-prev.slick-arrow{
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+}
+.item-card{
+    background-color: aliceblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+}
